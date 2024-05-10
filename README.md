@@ -1,1 +1,3 @@
-# rf_transmitter
+# RF Transmitter Design
+
+5G has rolled out millimeter-wave cellular communication bands in the US at 28 GHz. In this project I build a high efficiency 5G millimeter-wave transmitter with an upconversion mixer, power splitter, phase shifter, and a class-A power amplifier. The only input signals are the baseband signals, the LO, and the voltage supplies. The output is a single-ended signal. The design is evaluated by the ability to meet 28GHz in the transmit band, 200MHz channel bandwidth, >60 degree phase shift, 10dB gain, >25% efficiency, and 15dBm output power compression with minimal dissipated power.
